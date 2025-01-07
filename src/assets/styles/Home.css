@@ -1,0 +1,31 @@
+.home {
+    color: #770d85;
+    text-align: center;
+    padding: 20px;
+   }
+   .recipe-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+   }
+
+.meal-planner-link {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: #770d85;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.meal-planner-link:hover {
+    background-color: #32e0e0;
+}

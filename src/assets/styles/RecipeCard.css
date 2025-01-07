@@ -1,0 +1,43 @@
+.recipe-card {
+    background-color: rgb(180, 229, 248);
+    color: #086677;
+    padding: 15px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.recipe-card img {
+    width: 100%;
+    border-radius: 8px;
+}
+.recipe-card h3 {
+    color: #086677;
+    margin: 10px 0;
+}
+.recipe-card a {
+    color: #086677;
+    text-decoration: none;
+}
+
+.add-meal-planner-btn {
+    margin: 10px 0;
+    background-color: #770d85;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.add-meal-planner-btn a {
+    background-color: #086677;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+}
+
+.add-meal-planner-btn:hover {
+    background-color: #32e0e0;
+}

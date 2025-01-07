@@ -1,0 +1,28 @@
+.search {
+    color: #770d85;
+    text-align: center;
+    padding: 20px;
+   }
+   .search input {
+    font-family: Arial, sans-serif;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+   }
+   .search button {
+    padding: 10px 20px;
+    background-color: #770d85;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+   }
+   .search .recipe-list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
