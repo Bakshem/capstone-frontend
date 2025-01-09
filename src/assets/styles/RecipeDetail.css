@@ -2,15 +2,15 @@
     padding: 20px;
     text-align: center;
 }
-
+  
 .recipe-detail h1 {
     color: #770d85;
 }
-
+  
 .recipe-detail h2 {
     color: #770d85;
 }
-
+  
 .recipe-detail img {
     width: 300px;
     height: 300px;
@@ -31,26 +31,26 @@
 }
   
 .add-to-list-btn:hover {
-background-color: #32e0e0;
+    background-color:#32e0e0;
 }
-
+  
 .shopping-list {
-margin-top: 20px;
-padding: 10px;
-border: 1px solid #ddd;
-border-radius: 5px;
-background-color: #f9f9f9;
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
 }
-
+  
 .shopping-list ul {
-list-style-type: none;
-padding: 0;
+    list-style-type: none;
+    padding: 0;
 }
-
+  
 .shopping-list li {
-margin: 5px 0;
+    margin: 40px;
 }
-
+  
 .save-shopping-list {
     margin-left: 10px;
     padding: 5px 10px;
@@ -61,7 +61,30 @@ margin: 5px 0;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
+  
 .save-shopping-list:hover {
     background-color: #770d85;
+}
+
+  
+.ingredients li {
+    text-align: middle;
+    display: flex;
+    align-items: center;
+}
+  
+.ingredients input[type="checkbox"] {
+    margin: 10px;
+}
+
+.instruction-step p {
+    margin: 10px 20px;
+    text-align: middle;
+}
+
+.back-btn {
+    font-size: 2rem;
+    color: #770d85;
+    cursor: pointer;
+    transition: color 0.3s ease;
 }
